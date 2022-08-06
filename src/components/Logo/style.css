@@ -1,0 +1,21 @@
+.logo {
+  height: fit-content;
+  width: 159px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+  margin-bottom: 14px;
+
+  cursor: pointer;
+}
+.logo__name1 {
+  font-size: 26px;
+  font-weight: bold;
+  color: rgb(61, 61, 61);
+}
+.logo__name2 {
+  font-weight: bold;
+  color: red;
+}

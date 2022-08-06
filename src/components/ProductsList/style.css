@@ -1,0 +1,32 @@
+.productsList {
+  width: 100%;
+  max-width: 950px;
+  max-height: 716px;
+  min-height: 346px;
+  overflow-x: scroll;
+
+  display: flex;
+  flex-flow: row nowrap;
+
+  margin-bottom: 20px;
+}
+.productsList::-webkit-scrollbar {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .productsList {
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 60%;
+    overflow-y: scroll;
+    padding-top: 12px;
+  }
+}
+@media (min-width: 1470px) {
+  .productsList {
+    justify-content: space-between;
+    width: 100%;
+  }
+}
